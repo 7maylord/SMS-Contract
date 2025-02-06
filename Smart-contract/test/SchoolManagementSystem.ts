@@ -4,7 +4,6 @@ import {
   } from "@nomicfoundation/hardhat-toolbox/network-helpers";
 import { HardhatEthersSigner } from "@nomicfoundation/hardhat-ethers/signers";
 import { anyValue } from "@nomicfoundation/hardhat-chai-matchers/withArgs";
-import { assert } from "console";
 import hre, { ethers } from "hardhat";
 import { expect } from "chai";
 
