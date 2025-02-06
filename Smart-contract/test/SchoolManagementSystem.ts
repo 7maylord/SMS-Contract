@@ -19,7 +19,16 @@ describe('SchoolManagementSystem test', () => {
 
         const deploySMS = await sms.deploy();
 
-        return {deploySMS, owner, staff, student1, student2, parent, stranger, ADDRESS_ZERO}
+        return {
+            deploySMS,
+            owner,
+            staff,
+            student1,
+            student2,
+            parent,
+            stranger,
+            ADDRESS_ZERO
+        }
     }
 
     describe("Deployment", () => {
@@ -244,34 +253,5 @@ describe('SchoolManagementSystem test', () => {
 
            expect(await deploySMS.studentCourses(1, 1)).to.be.true;
        });
-
-
-
-
-
-
-
-
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 })
-
-
-
-
